@@ -11,18 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/middlewares/users/set-owes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-owed.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-username.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +128,7 @@
       <updated>1598265075307</updated>
       <workItem from="1598265076406" duration="13431000" />
       <workItem from="1598279866609" duration="17290000" />
-      <workItem from="1598326657999" duration="10996000" />
+      <workItem from="1598326657999" duration="12143000" />
     </task>
     <servers />
   </component>
@@ -155,22 +148,22 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598333048882">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598340668598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598333048882" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598333048882">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598340668598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598333048882" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598333048881">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598340668598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598333048881" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598333048882">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598340668598">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598333048882" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1598279836246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

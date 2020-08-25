@@ -1,7 +1,7 @@
 module.exports = function(req,res,next){
     console.log("Return all groups");
     const result ={
-        name:Group1,
+        name:"Group1",
         users:[{
             user_id:1,
             username:"Pratik",

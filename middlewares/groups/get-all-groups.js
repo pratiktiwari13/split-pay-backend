@@ -3,12 +3,12 @@ module.exports = function (req,res,next){
     const result = [{
         id:1,
         members:5,
-        name:Group1
+        name:"Group1"
     },
         {
             id:2,
             members:5,
-            name:Group2
+            name:"Group2"
         }];
 
     res.status(200);
