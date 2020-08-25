@@ -11,39 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/users/set-owes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/google-verification.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/google-verification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/scan-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/scan-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/set-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/set-username.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/globalErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/globalErrorHandler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/add-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/add-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/expense.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/expense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/create-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-owed.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-username.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/authentication/login-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/login-route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/authentication/logout-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/logout-route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/groups/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/groups/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +135,7 @@
       <updated>1598265075307</updated>
       <workItem from="1598265076406" duration="13431000" />
       <workItem from="1598279866609" duration="17290000" />
-      <workItem from="1598326657999" duration="6627000" />
+      <workItem from="1598326657999" duration="10996000" />
     </task>
     <servers />
   </component>
