@@ -8,4 +8,5 @@
 /httpRequests/
 /node_modules/
 /.idea/
-/models_gen.js
+/package-lock.json
+/split-pay-backend.iml

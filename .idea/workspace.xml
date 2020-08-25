@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="" />
+    <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/google-verification.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/google-verification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/scan-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/scan-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/set-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/set-username.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/globalErrorHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/globalErrorHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/add-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/add-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/expense.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/expense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/create-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owed.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-username.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/authentication/login-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/login-route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/authentication/logout-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/logout-route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/groups/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/groups/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +58,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gXdsI9quaO48zz1BTa1JOR1CU4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,14 +77,48 @@
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pratik Tiwari\IdeaProjects\split-pay-backend\middlewares\authentication\login" />
       <recent name="C:\Users\Pratik Tiwari\IdeaProjects\split-pay-backend" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:80/api/item" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="id" />
+                <option name="value" value="99" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -46,11 +130,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="models_gen.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/models_gen.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="HTTP Request.test#1" />
         <item itemvalue="Node.js.models_gen.js" />
       </list>
     </recent_temporary>
@@ -63,33 +155,103 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598265075307</updated>
-      <workItem from="1598265076406" duration="2767000" />
+      <workItem from="1598265076406" duration="13431000" />
+      <workItem from="1598279866609" duration="17290000" />
+      <workItem from="1598326657999" duration="6627000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598267475938">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598333048882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598267475938" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598267475938">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598333048882" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598333048882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598267475938" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598267475938">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598333048882" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598333048881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598267475938" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598267475938">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598333048881" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598333048882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598267475938" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1598267287304">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598333048882" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1598279836246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598267287304" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598279836246" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1598279836246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1598279836246" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1598279836246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1598279836246" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1598279836246">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1598279836246" />
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom" timestamp="1598279836248">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598279836248" />
+    <state width="1237" height="204" key="GridCell.Tab.2.center" timestamp="1598279836247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1598279836247" />
+    <state width="1237" height="204" key="GridCell.Tab.2.left" timestamp="1598279836247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1598279836247" />
+    <state width="1237" height="204" key="GridCell.Tab.2.right" timestamp="1598279836247">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1598279836247" />
+    <state width="1237" height="204" key="GridCell.Tab.3.bottom" timestamp="1598279836248">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598279836248" />
+    <state width="1237" height="204" key="GridCell.Tab.3.center" timestamp="1598279836248">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.center/0.0.1280.680@0.0.1280.680" timestamp="1598279836248" />
+    <state width="1237" height="204" key="GridCell.Tab.3.left" timestamp="1598279836248">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.left/0.0.1280.680@0.0.1280.680" timestamp="1598279836248" />
+    <state width="1237" height="204" key="GridCell.Tab.3.right" timestamp="1598279836248">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.3.right/0.0.1280.680@0.0.1280.680" timestamp="1598279836248" />
+    <state x="221" y="76" key="IDE.errors.dialog" timestamp="1598279715653">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="76" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1598279715653" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1598273141208">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598273141208" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598296859960">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598296859960" />
   </component>
 </project>
