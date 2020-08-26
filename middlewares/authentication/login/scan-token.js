@@ -1,4 +1,9 @@
 module.exports = function(req,res,next){
     console.log("Scan Token");
-    next();
+    if(req.body.token)
+        next();
+    else {
+        res.status(400);
+        res.end();
+    }
 }

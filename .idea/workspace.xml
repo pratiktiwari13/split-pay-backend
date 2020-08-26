@@ -11,11 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DbConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/scan-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/scan-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/set-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/set-username.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/add-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/add-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/expense.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/expense.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owed.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/group_expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/group_expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/groups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/groups_users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/groups_users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +60,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test1" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -89,32 +104,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Node.js.get-all-groups.js">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/test.http" runType="Run single request">
+    <configuration name="add-group.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/add-group.js" working-dir="$PROJECT_DIR$/middlewares/groups">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+    <configuration name="expense.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/expense.js" working-dir="$PROJECT_DIR$/middlewares/groups">
       <method v="2" />
     </configuration>
-    <configuration name="models_gen.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/models_gen.js" working-dir="$PROJECT_DIR$">
+    <configuration name="get-all-groups.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" working-dir="$PROJECT_DIR$/middlewares/groups">
+      <method v="2" />
+    </configuration>
+    <configuration name="remove-token.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" working-dir="$PROJECT_DIR$/middlewares/authentication/logout">
+      <method v="2" />
+    </configuration>
+    <configuration name="validate-username.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" working-dir="$PROJECT_DIR$/middlewares/authentication/login">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.app.js" />
-        <item itemvalue="HTTP Request.test#1" />
-        <item itemvalue="Node.js.models_gen.js" />
+        <item itemvalue="Node.js.get-all-groups.js" />
+        <item itemvalue="Node.js.expense.js" />
+        <item itemvalue="Node.js.add-group.js" />
+        <item itemvalue="Node.js.remove-token.js" />
+        <item itemvalue="Node.js.validate-username.js" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +153,8 @@
       <updated>1598265075307</updated>
       <workItem from="1598265076406" duration="13431000" />
       <workItem from="1598279866609" duration="17290000" />
-      <workItem from="1598326657999" duration="12143000" />
+      <workItem from="1598326657999" duration="34678000" />
+      <workItem from="1598411510174" duration="16572000" />
     </task>
     <servers />
   </component>
@@ -148,22 +174,26 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598340668598">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1598357322132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598340668598">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598357322132" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598427922168">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598340668598">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598427922168" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598427922168">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598340668598">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598427922168" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598427922168">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598340668598" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598427922168" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598427922168">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598427922168" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1598279836246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -220,9 +250,23 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598273141208" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598296859960">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598423657215">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598296859960" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598423657215" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598426261655">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1598426261655" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/DbConfig.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

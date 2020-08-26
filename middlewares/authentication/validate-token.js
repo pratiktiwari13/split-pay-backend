@@ -1,10 +1,15 @@
-module.exports = function (req,res,next){
-    console.log("Validate and if true, call next");
-    const valid = true;
-    if(valid){
+const db = require("../../models");
+
+module.exports = async function (req,res,next){
+    try {
+        const user = await db.users.findAll({attributes:['username']},{where:{ user_token:req.body.token}});
         next();
     }
-    else {
-        next(400);
+    catch(err){
+        console.log(err);
+        next(400)
     }
 }
+
+//test
+module.exports({body:{token:"token"}},"",()=>{});

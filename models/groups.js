@@ -31,7 +31,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false,
       defaultValue: sequelize.fn('current_timestamp')
     }
-  }, {
+  }, {timestamps:false},{
     sequelize,
     tableName: 'groups'
   });

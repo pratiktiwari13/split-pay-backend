@@ -16,6 +16,10 @@ module.exports = function(sequelize, DataTypes) {
       type: DataTypes.STRING(255),
       allowNull: false
     },
+    user_email:{
+      type:DataTypes.STRING(255),
+      allowNull:false
+    },
     created_at: {
       type: DataTypes.DATE,
       allowNull: false,
@@ -23,13 +27,15 @@ module.exports = function(sequelize, DataTypes) {
     },
     updated_at: {
       type: DataTypes.DATE,
-      allowNull: true
+      allowNull: true,
+      defaultValue: sequelize.fn("current_timestamp")
     },
     deleted_at: {
       type: DataTypes.DATE,
       allowNull: true
     }
-  }, {
+
+  },{timestamps:false}, {
     sequelize,
     tableName: 'users'
   });

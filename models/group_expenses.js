@@ -23,19 +23,19 @@ module.exports = function(sequelize, DataTypes) {
     created_at: {
       type: DataTypes.INTEGER(11),
       allowNull: false,
-      defaultValue: current_timestamp
+      defaultValue: sequelize.fn("current_timestamp")
     },
     updated_at: {
       type: DataTypes.INTEGER(11),
       allowNull: false,
-      defaultValue: current_timestamp
+      defaultValue: sequelize.fn("current_timestamp")
     },
     deleted_at: {
       type: DataTypes.INTEGER(11),
       allowNull: false,
-      defaultValue: current_timestamp
+      defaultValue: sequelize.fn("current_timestamp")
     }
-  }, {
+  }, {timestamps:false},{
     sequelize,
     tableName: 'group_expenses'
   });
