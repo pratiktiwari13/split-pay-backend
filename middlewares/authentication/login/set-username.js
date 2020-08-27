@@ -13,4 +13,4 @@ module.exports = async function(req,res,next){
 }
 
 //test
-//module.exports({body:{username:"updated_username",token:"token"}},{status:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{username:"updated_username",token:"token"}},{status:()=>{},end:()=>{}},()=>{});*/
