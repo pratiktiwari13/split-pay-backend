@@ -25,4 +25,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{group_id:1,amount:500,description:"Hello"}},{status:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{group_id:1,amount:500,description:"Hello"}},{status:()=>{},end:()=>{}},()=>{});*/

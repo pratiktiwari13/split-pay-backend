@@ -1,35 +1,32 @@
 const db = require("../../models");
 
-module.exports = function(req,res,next){
-    console.log("Return all groups");
-    const group_id = req.params.id;
-    const user_ids = db.groupsUsers.findAll({attributes:['user_id'],raw:true,where:{group_id:group_id}});
-    for(let i=0;i<user_ids;i++){
-
+module.exports = async function(req,res,next){
+    try {
+        console.log("Return all groups");
+        const group_id = req.params.id;
+        const users = [];
+        const user_ids = await db.groupsUsers.findAll({
+            attributes: ['user_id'],
+            raw: true,
+            where: {group_id: group_id}
+        });
+        for (let i = 0; i < user_ids.length; i++) {
+            const user = await db.users.findOne({
+                raw:true,
+                attributes: ['user_id', 'username', 'user_email'],
+                where: {user_id: user_ids[i].user_id}
+            });
+            users.push(user);
+        }
+        const history = await db.groupsExpenses.findAll({attributes:['amount','description'],raw:true,where:{group_id:req.params.id}});
+        const result = {users:users, payment_history:history};
+        console.log(result);
+        res.status(200);
+        res.send(result);
     }
-    res.status(200);
-    res.send(result);
+    catch(err){
+        console.log(err);
+    }
 }
 
-/*{
-    name:"Group1",
-        users:[{
-    user_id:1,
-    username:"Pratik",
-    email:"pratik@abc.com"
-},
-    {
-        user_id:2,
-        username:"Guri",
-        email:"guri@abc.com"
-    }],
-    payment_history:[
-    {
-        amount:1000,
-        description:"Dinner"
-    },
-    {
-        amount:2000,
-        description:"Lunch"
-    }]
-};*/
+/*module.exports({params:{id:1}},{status:()=>{},send:()=>{}},()=>{});*/

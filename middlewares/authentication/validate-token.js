@@ -2,7 +2,8 @@ const db = require("../../models");
 
 module.exports = async function (req,res,next){
     try {
-        const user = await db.users.findAll({attributes:['username']},{where:{ user_token:req.body.token}});
+        const user = await db.users.findAll({attributes:['username'],where:{ user_token:req.parsedToken},raw:true});
+        console.log(user);
         next();
     }
     catch(err){
@@ -12,4 +13,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{token:"token"}},"",()=>{});
+/*module.exports({body:{token:"token"}},"",()=>{});*/

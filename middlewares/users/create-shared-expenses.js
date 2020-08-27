@@ -3,7 +3,7 @@ const db = require("../../models");
 module.exports = async function (req,res,next){
     console.log("Create a shared expense");
 
-    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.body.token}});
+    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.parsedToken}});
 
     let members = req.body.members;
     let paid_amount = req.body.initial_paid_amount;
@@ -42,4 +42,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{token:"test3",members:[{ username:"dhiren" } , {username:"pratik"}] , description:"lunch", initial_paid_amount:900 }} ,{status:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{token:"test3",members:[{ username:"dhiren" } , {username:"pratik"}] , description:"lunch", initial_paid_amount:900 }} ,{status:()=>{},end:()=>{}},()=>{});*/

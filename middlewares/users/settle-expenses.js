@@ -3,7 +3,7 @@ const db = require("../../models");
 module.exports = async function (req,res,next){
     console.log("settle expense");
     let remaining_amount= 0;
-    const user_id = await db.users.findAll({attributes:['username'],raw:true,where:{user_token:req.body.token} });
+    const user_id = await db.users.findAll({attributes:['username'],raw:true,where:{user_token:req.parsedToken} });
 
     const temp = await db.expenses.findAll({
         attributes: ['amount'],
@@ -15,7 +15,7 @@ module.exports = async function (req,res,next){
     //console.log(remaining_amount);
     
     try {
-        if(remaining_amount == 0)
+        if(remaining_amount === 0)
         {
             const updatedUser = await db.expenses.update({amount: remaining_amount, is_paid:1, is_owing:0}, {where: {expense_id: req.body.expense_id}});
         }
@@ -24,7 +24,7 @@ module.exports = async function (req,res,next){
         }
         
         res.status(200);
-        res.end();
+        res.send({remaining_amount});
     }
     catch(err){
         res.status(400);
@@ -34,4 +34,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{token:"test3",expense_id:8,amount:700}},{status:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{token:"test3",expense_id:8,amount:700}},{status:()=>{},end:()=>{}},()=>{});*/

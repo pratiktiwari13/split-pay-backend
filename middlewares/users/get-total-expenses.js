@@ -3,7 +3,7 @@ const { Op } = require("sequelize");
 
 module.exports = async function (req,res,next){
     console.log("get all the total expenses");
-    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.body.token}});
+    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.parsedToken}});
     console.log(user_id.user_id);
     var final=[];
     //get owed total
@@ -75,7 +75,7 @@ module.exports = async function (req,res,next){
         owing_total:1000
     };*/
     res.status(200);
-    res.send(result);
+    res.send(final);
 }
 //test
-module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});*/

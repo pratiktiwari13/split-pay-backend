@@ -2,7 +2,7 @@ const db = require("../../models");
 
 module.exports = async function (req,res,next){
     console.log("Create a owing expense");
-    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.body.token}});
+    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.parsedToken}});
 
     const user_name_of_owing = await db.users.findOne({attributes:['user_id'],raw:true,where:{username:req.body.username}});
     await db.expenses.create({
@@ -19,4 +19,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{token:"test",username:"pratik",amount:500,description:"Hello"}},{status:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{token:"test",username:"pratik",amount:500,description:"Hello"}},{status:()=>{},end:()=>{}},()=>{});*/

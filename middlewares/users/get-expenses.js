@@ -2,7 +2,8 @@ const db = require("../../models");
 
 module.exports = async function(req,res,next){
     console.log("get expenses")
-    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.body.token}});
+    console.log(req.parsedToken);
+    const user_id = await db.users.findOne({attributes:['user_id'],raw:true,where:{user_token:req.parsedToken}});
     console.log(user_id.user_id);
     const expenses = await db.expenses.findAll({attributes:['expense_id'],raw:true,where: {from_user_id:user_id.user_id, to_user_id:user_id.user_id }});
     var result=[];
@@ -24,9 +25,9 @@ module.exports = async function(req,res,next){
     res.send(result);
 }
 //test
-module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});
 
-/*const result =    [{
+const result =    [{
     id:1,
     amount:1000,
     isPaid:true,
@@ -39,4 +40,5 @@ module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>
 
     console.log("Get all expenses");
     res.status(200);
-    res.send(result);*/
+    res.send(result);
+*/

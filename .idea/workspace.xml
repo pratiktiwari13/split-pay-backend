@@ -11,7 +11,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/add-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/add-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/expense.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/expense.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/create-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owed.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/set-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/set-owes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/authentication/login-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/login-route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +63,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/middlewares/users" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
@@ -51,6 +72,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pratik Tiwari\IdeaProjects\split-pay-backend\middlewares\users" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pratik Tiwari\IdeaProjects\split-pay-backend\middlewares\authentication\login" />
       <recent name="C:\Users\Pratik Tiwari\IdeaProjects\split-pay-backend" />
@@ -86,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.get-all-groups.js">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -103,25 +127,25 @@
     <configuration name="add-group.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/add-group.js" working-dir="$PROJECT_DIR$/middlewares/groups">
       <method v="2" />
     </configuration>
-    <configuration name="expense.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/expense.js" working-dir="$PROJECT_DIR$/middlewares/groups">
+    <configuration name="add-user-or-update-token.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/login/add-user-or-update-token.js" working-dir="$PROJECT_DIR$/middlewares/authentication/login">
       <method v="2" />
     </configuration>
-    <configuration name="get-all-groups.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" working-dir="$PROJECT_DIR$/middlewares/groups">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="remove-token.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" working-dir="$PROJECT_DIR$/middlewares/authentication/logout">
+    <configuration name="get-specific-group.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" working-dir="$PROJECT_DIR$/middlewares/groups">
       <method v="2" />
     </configuration>
-    <configuration name="validate-username.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/login/validate-username.js" working-dir="$PROJECT_DIR$/middlewares/authentication/login">
+    <configuration name="google-verification.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/login/google-verification.js" working-dir="$PROJECT_DIR$/middlewares/authentication/login">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.get-all-groups.js" />
-        <item itemvalue="Node.js.expense.js" />
+        <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.add-group.js" />
-        <item itemvalue="Node.js.remove-token.js" />
-        <item itemvalue="Node.js.validate-username.js" />
+        <item itemvalue="Node.js.add-user-or-update-token.js" />
+        <item itemvalue="Node.js.google-verification.js" />
+        <item itemvalue="Node.js.get-specific-group.js" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +160,11 @@
       <workItem from="1598265076406" duration="13431000" />
       <workItem from="1598279866609" duration="17290000" />
       <workItem from="1598326657999" duration="34678000" />
-      <workItem from="1598411510174" duration="16840000" />
+      <workItem from="1598411510174" duration="18919000" />
+      <workItem from="1598441392446" duration="5933000" />
+      <workItem from="1598448028356" duration="151000" />
+      <workItem from="1598448192549" duration="20926000" />
+      <workItem from="1598501348087" duration="6002000" />
     </task>
     <servers />
   </component>
@@ -156,26 +184,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598461843735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="88" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1598461843735" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1598357322132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598357322132" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598428789628">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598506159020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598428789628" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598428789628">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598506159020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598428789628" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598428789628">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598506159020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598428789628" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598428789628">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598506159020">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598428789628" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1598279836246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -232,10 +264,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598273141208" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598423657215">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598506984403">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598423657215" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598506984403" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598426261655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

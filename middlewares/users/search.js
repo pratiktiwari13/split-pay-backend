@@ -2,7 +2,7 @@ const db = require("../../models");
 
 module.exports = async function (req,res,next){
     console.log("search user");
-    const user_names = await db.users.findAll({attributes:['username'],raw:true,where:{username:req.body.username} });
+    const user_names = await db.users.findOne({attributes:['username'],raw:true,where:{username:req.body.username} });
     if(user_names == null)
     {
         res.status(400);
@@ -17,4 +17,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{token:"test",username:"dh"}},{status:()=>{},end:()=>{}},()=>{});
+/*module.exports({body:{token:"test",username:"dh"}},{status:()=>{},end:()=>{}},()=>{});*/

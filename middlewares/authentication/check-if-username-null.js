@@ -1,11 +1,13 @@
 const db = require("../../models");
 
-module.exports = async function (req,res,next){
+module.exports = async function(req,res,next){
     try {
         console.log("check if username is null");
-        const username = await db.users.findOne({raw:true},{attributes: ['username']}, {where: {user_token: req.body.token}});
-        if (username)
+        const username = await db.users.findAll({attributes: ['username'],raw:true,where: {user_token: req.parsedToken}});
+        if (username) {
             next();
+            console.log("called next");
+        }
         else
             next(405);
     }
@@ -15,4 +17,4 @@ module.exports = async function (req,res,next){
 }
 
 //test
-module.exports({body:{token:"token"}},"",()=>{});
+/*module.exports({body:{token:"token"}},"",()=>{});*/

@@ -5,6 +5,7 @@ const checkIfUsernameNull = require("./check-if-username-null");
 const validateToken = require("./validate-token");
 const validateUsername = require("./login/validate-username");
 const setUsername = require("./login/set-username");
+const addUserOrUpdateToken = require("./login/add-user-or-update-token");
 
 module.exports = {
     scanToken,
@@ -13,5 +14,6 @@ module.exports = {
     checkIfUsernameNull,
     validateToken,
     validateUsername,
-    setUsername
+    setUsername,
+    addUserOrUpdateToken
 };
