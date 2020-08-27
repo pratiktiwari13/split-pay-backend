@@ -21,9 +21,14 @@ module.exports = async function(req,res,next){
             created_at:temp[0].created_at
         });
     }
-    console.log(result);
-    res.status(200);
-    res.send(result);
+    if(result.length===0){
+        res.status(404);
+        res.end();
+    }
+    else {
+        res.status(200);
+        res.send(result);
+    }
 }
 //test
 /*module.exports({parsedToken:"token2"},{status:()=>{},send:()=>{},end:()=>{}},()=>{});

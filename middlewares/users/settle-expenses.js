@@ -1,6 +1,7 @@
 const db = require("../../models");
 
 module.exports = async function (req,res,next){
+    try{
     console.log("settle expense");
     let remaining_amount= 0;
     const user_id = await db.users.findAll({attributes:['username'],raw:true,where:{user_token:req.parsedToken} });
@@ -13,8 +14,6 @@ module.exports = async function (req,res,next){
     //console.log(temp[0].amount);
     remaining_amount= temp[0].amount - req.body.amount;
     //console.log(remaining_amount);
-    
-    try {
         if(remaining_amount === 0)
         {
             const updatedUser = await db.expenses.update({amount: remaining_amount, is_paid:1, is_owing:0}, {where: {expense_id: req.body.expense_id}});

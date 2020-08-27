@@ -22,5 +22,7 @@ module.exports = async function(req,res,next){
     }
     catch(err){
         console.log(err);
+        res.status(400);
+        res.end();
     }
 }

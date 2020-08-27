@@ -67,15 +67,14 @@ module.exports = async function (req,res,next){
         owing_total:sum
     });
 
-    console.log(final);
-
-    /*result = {
-        owed_total:1000,
-        expenses_total:1000,
-        owing_total:1000
-    };*/
-    res.status(200);
-    res.send(final);
+    if(final.length===0){
+        res.status(404);
+        res.end();
+    }
+    else {
+        res.status(200);
+        res.send(result);
+    }
 }
 //test
 /*module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});*/

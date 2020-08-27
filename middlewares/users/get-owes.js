@@ -27,10 +27,15 @@ module.exports = async function (req,res,next){
             
         });
     }
-    
-    console.log(result);
-    res.status(200);
-    res.send(result);
+
+    if(result.length===0){
+        res.status(404);
+        res.end();
+    }
+    else {
+        res.status(200);
+        res.send(result);
+    }
 
 }
 //test

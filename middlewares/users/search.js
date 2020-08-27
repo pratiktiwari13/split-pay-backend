@@ -5,7 +5,7 @@ module.exports = async function (req,res,next){
     const user_names = await db.users.findOne({attributes:['username'],raw:true,where:{username:req.body.username} });
     if(user_names == null)
     {
-        res.status(400);
+        res.status(404);
         res.end();
     }
     else{
