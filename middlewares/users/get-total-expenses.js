@@ -73,7 +73,7 @@ module.exports = async function (req,res,next){
     }
     else {
         res.status(200);
-        res.send(result);
+        res.send(final);
     }
 }
 //test

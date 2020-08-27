@@ -8,7 +8,6 @@ module.exports = async function (req,res,next){
             raw: true,
             where: {user_token: req.parsedToken}
         });
-
         const user_name_of_owing = await db.users.findOne({
             attributes: ['user_id'],
             raw: true,
@@ -27,6 +26,7 @@ module.exports = async function (req,res,next){
         res.end();
     }
     catch(err){
+        console.log(err);
         res.status(400);
         res.end();
     }

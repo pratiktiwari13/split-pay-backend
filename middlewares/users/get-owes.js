@@ -8,6 +8,7 @@ module.exports = async function (req,res,next){
     const expenses = await db.expenses.findAll({attributes:['expense_id'],raw:true,where: {to_user_id:user_id.user_id, from_user_id:{
         [Op.ne]: user_id.user_id
       } }});
+    console.log(expenses);
     var result=[];
     for(let i=0;i<expenses.length;i++) {
         const temp = await db.expenses.findAll({
@@ -15,6 +16,8 @@ module.exports = async function (req,res,next){
             raw: true,
             where: {expense_id: expenses[i].expense_id , is_paid:0}
         });
+        if(temp.length === 0)
+            continue;
         const usernames = await db.users.findOne({
             attributes: ['username'],
             raw:true,

@@ -15,9 +15,8 @@ module.exports = async function(req,res,next){
         });
         await result.push({
             id: temp[0].expense_id,
-            from_user_id: temp[0].from_user_id,
             amount: temp[0].amount,
-            name: temp[0].is_paid,
+            is_paid: temp[0].is_paid,
             created_at:temp[0].created_at
         });
     }
