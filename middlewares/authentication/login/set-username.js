@@ -2,7 +2,7 @@ const db = require("../../../models");
 
 module.exports = async function(req,res,next){
     try {
-        const updatedUser = await db.users.update({username: req.body.username}, {where: {user_token: req.body.token}});
+        const updatedUser = await db.users.update({username: req.body.username}, {where: {user_token: req.parsedToken}});
         res.status(200);
         res.end();
     }
@@ -13,4 +13,4 @@ module.exports = async function(req,res,next){
 }
 
 //test
-module.exports({body:{username:"updated_username",token:"token"}},{status:()=>{},end:()=>{}},()=>{});
+//module.exports({body:{username:"updated_username",token:"token"}},{status:()=>{},end:()=>{}},()=>{});

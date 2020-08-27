@@ -10,3 +10,4 @@
 /.idea/
 /package-lock.json
 /split-pay-backend.iml
+/DbConfig.js
