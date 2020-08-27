@@ -9,7 +9,7 @@ module.exports = async function(req,res,next){
     var result=[];
     for(let i=0;i<expenses.length;i++) {
         const temp = await db.expenses.findAll({
-            attributes: ['expense_id', 'from_user_id','amount', 'is_paid'],
+            attributes: ['expense_id', 'from_user_id','amount', 'is_paid','created_at'],
             raw: true,
             where: {expense_id: expenses[i].expense_id}
         });
@@ -17,7 +17,8 @@ module.exports = async function(req,res,next){
             id: temp[0].expense_id,
             from_user_id: temp[0].from_user_id,
             amount: temp[0].amount,
-            name: temp[0].is_paid
+            name: temp[0].is_paid,
+            created_at:temp[0].created_at
         });
     }
     console.log(result);
@@ -25,7 +26,7 @@ module.exports = async function(req,res,next){
     res.send(result);
 }
 //test
-/*module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});
+/*module.exports({parsedToken:"token2"},{status:()=>{},send:()=>{},end:()=>{}},()=>{});
 
 const result =    [{
     id:1,
@@ -36,9 +37,8 @@ const result =    [{
     id:2,
     amount:2000,
     isPaid:true
-}];
+}];*/
 
-    console.log("Get all expenses");
-    res.status(200);
-    res.send(result);
-*/
+    // console.log("Get all expenses");
+    // res.status(200);
+    // res.send(result);

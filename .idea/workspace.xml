@@ -12,27 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="50cd9e53-5b94-42cc-b3fa-6a9b5d7319b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/check-if-username-null.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/logout/remove-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/authentication/validate-token.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/add-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/add-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/expense.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/expense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-all-groups.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/create-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/create-shared-expenses.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middlewares/users/get-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owed.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-owes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/get-total-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/set-owes.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/set-owes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/users/settle-expenses.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/authentication/login-route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/authentication/login-route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +90,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.app.js">
+  <component name="RunManager" selected="Node.js.get-expenses.js">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -133,7 +113,7 @@
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="get-specific-group.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/groups/get-specific-group.js" working-dir="$PROJECT_DIR$/middlewares/groups">
+    <configuration name="get-expenses.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/users/get-expenses.js" working-dir="$PROJECT_DIR$/middlewares/users">
       <method v="2" />
     </configuration>
     <configuration name="google-verification.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/middlewares/authentication/login/google-verification.js" working-dir="$PROJECT_DIR$/middlewares/authentication/login">
@@ -141,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.get-expenses.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.add-group.js" />
         <item itemvalue="Node.js.add-user-or-update-token.js" />
         <item itemvalue="Node.js.google-verification.js" />
-        <item itemvalue="Node.js.get-specific-group.js" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +144,7 @@
       <workItem from="1598441392446" duration="5933000" />
       <workItem from="1598448028356" duration="151000" />
       <workItem from="1598448192549" duration="20926000" />
-      <workItem from="1598501348087" duration="6002000" />
+      <workItem from="1598501348087" duration="7409000" />
     </task>
     <servers />
   </component>
@@ -192,22 +172,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598357322132" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598506159020">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1598508872526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598506159020">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598508872526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1598508872526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598506159020">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598508872526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1598508872526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598506159020">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598508872526" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1598508872526">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598506159020" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598508872526" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1598279836246">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -264,10 +244,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598273141208" />
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598506984403">
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1598508820830">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598506984403" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1598508820830" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1598426261655">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
