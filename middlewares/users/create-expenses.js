@@ -2,8 +2,6 @@ const db = require("../../models");
 
 module.exports = async function (req,res,next){
     try {
-        console.log("Create a personal expense");
-        console.log(req.body);
         const user_id = await db.users.findOne({
             attributes: ['user_id'],
             raw: true,
@@ -18,7 +16,6 @@ module.exports = async function (req,res,next){
             description: req.body.description
 
         });
-
         res.status(200);
         res.end();
     }
@@ -27,6 +24,3 @@ module.exports = async function (req,res,next){
         res.end();
     }
 }
-
-//test
-/*module.exports({body:{token:"test",amount:500,description:"Hello",is_paid:"false"}},{status:()=>{},end:()=>{}},()=>{});*/

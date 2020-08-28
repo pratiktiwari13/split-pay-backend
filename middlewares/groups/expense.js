@@ -2,19 +2,18 @@ const db = require("../../models");
 
 module.exports = async function (req,res,next){
     try {
-        console.log("Adding expense");
         await db.groupsExpenses.create({
             group_id: req.body.group_id,
             amount: req.body.amount,
             description: req.body.description,
         });
-        let user_ids = await db.groupsUsers.findAll({raw: true, attributes: ['user_id']}, {
+        let user_ids = await db.groupsUsers.findAll({raw: true, attributes: ['user_id'],
             where: {
-                group_id: 1
-            }
-        });
+                group_id: req.body.group_id
+            }});
         let costPerHead = req.body.amount / user_ids.length;
-        user_ids.forEach(async function (user_id) {
+        await user_ids.forEach(async function (user_id) {
+            console.log(user_id);
             await db.expenses.create({
                 from_user_id: user_id.user_id,
                 to_user_id: user_id.user_id,
@@ -32,6 +31,3 @@ module.exports = async function (req,res,next){
         res.end();
     }
 }
-
-//test
-/*module.exports({body:{group_id:1,amount:500,description:"Hello"}},{status:()=>{},end:()=>{}},()=>{});*/

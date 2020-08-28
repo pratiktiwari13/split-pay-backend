@@ -2,13 +2,11 @@ const db = require("../../models");
 
 module.exports = async function(req,res,next){
     try {
-        console.log("Add group");
         let group = await db.groups.create({
             group_name: req.body.group_name,
-            total_members: req.body.members.length,
+            total_members: req.body.members.length+1,
         });
         group = group.toJSON();
-        //console.log(group);
         for(let i=0;i<req.body.members.length;i++){
             try {
                 let user_id = await db.users.findOne({
@@ -16,7 +14,6 @@ module.exports = async function(req,res,next){
                     raw: true,
                     where: {username: req.body.members[i].username}
                 });
-                console.log(user_id.user_id);
                 if (!user_id.user_id) {
                     res.status(404);
                     res.end();
@@ -31,6 +28,11 @@ module.exports = async function(req,res,next){
                 console.log(err);
             }
         }
+        let user_id = await db.users.findOne({raw:true,where:{user_token:req.parsedToken}});
+        await db.groupsUsers.create({
+            user_id:user_id.user_id,
+            group_id:group.group_id
+        });
         res.status(200);
         res.end();
     }
@@ -39,6 +41,3 @@ module.exports = async function(req,res,next){
         res.end();
     }
 }
-
-//test
-/*module.exports({body:{group_name:"group1",members:[{username:'username-2'},{username:'username-3'}]}},{status:()=>{},end:()=>{}},()=>{});*/

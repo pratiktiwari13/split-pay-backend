@@ -2,14 +2,11 @@ const db = require("../../models");
 const { Op } = require("sequelize");
 
 module.exports = async function (req,res,next){
-        console.log("get owed");
-        console.log(req.parsedToken);
         const user_id = await db.users.findOne({
             attributes: ['user_id'],
             raw: true,
             where: {user_token: req.parsedToken}
         });
-        console.log(user_id.user_id);
         const expenses = await db.expenses.findAll({
             attributes: ['expense_id'], raw: true, where: {
                 from_user_id: user_id.user_id, to_user_id: {
@@ -47,20 +44,4 @@ module.exports = async function (req,res,next){
             res.status(200);
             res.send(result);
         }
-        console.log(result);
 }
-//test
-/*module.exports({body:{token:"test"}},{status:()=>{},send:()=>{},end:()=>{}},()=>{});
-
-const result = [{
-    user_id:1,
-    username:"Gurpreet",
-    amount:100
-},
-{
-    user_id:2,
-    username:"Dhiren",
-    amount:200
-}];
-    res.status(200);
-    res.send(result);*/

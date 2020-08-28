@@ -2,7 +2,6 @@ const db = require("../../models");
 
 module.exports = async function(req,res,next){
     try {
-        console.log("Return all groups");
         const group_id = req.params.id;
         const users = [];
         const user_ids = await db.groupsUsers.findAll({
@@ -20,15 +19,11 @@ module.exports = async function(req,res,next){
         }
         const history = await db.groupsExpenses.findAll({attributes:['amount','description'],raw:true,where:{group_id:req.params.id}});
         const result = {users:users, payment_history:history};
-        console.log(result);
         res.status(200);
         res.send(result);
     }
     catch(err){
-        console.log(err);
         res.status(404);
         res.end();
     }
 }
-
-/*module.exports({params:{id:1}},{status:()=>{},send:()=>{}},()=>{});*/

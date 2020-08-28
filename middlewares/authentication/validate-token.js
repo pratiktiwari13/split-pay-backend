@@ -11,6 +11,3 @@ module.exports = async function (req,res,next){
         next(400)
     }
 }
-
-//test
-/*module.exports({body:{token:"token"}},"",()=>{});*/

@@ -11,9 +11,7 @@ module.exports = async function (req,res,next){
         raw: true,
         where: {expense_id: req.body.expense_id}
     });
-    //console.log(temp[0].amount);
     remaining_amount= temp[0].amount - req.body.amount;
-    //console.log(remaining_amount);
         if(remaining_amount === 0)
         {
             const updatedUser = await db.expenses.update({amount: remaining_amount, is_paid:1, is_owing:0}, {where: {expense_id: req.body.expense_id}});
@@ -31,6 +29,3 @@ module.exports = async function (req,res,next){
     }
     
 }
-
-//test
-/*module.exports({body:{token:"test3",expense_id:8,amount:700}},{status:()=>{},end:()=>{}},()=>{});*/
